@@ -90,23 +90,19 @@ body {
 }
 
 .panel {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  gap: 16px;
-  max-width: 1200px;
-  padding: 19px;    */
   background-color: lightpink;
-  padding-top: 15px;;
+  padding-top: 15px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: center;
   gap: 60px;
-
 }
 
 .panel > * {
   width: 224px;
-  height: 340px;
+  height: 336px;
   overflow: hidden;
+  border: 3px solid blueviolet;
 }
 
 .panel > div > img {
