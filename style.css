@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: #ECECEC; 
+  background-color: white; 
 }
 
 .ss {
@@ -51,6 +51,11 @@ body {
 
 .bag > .action {
   font-size: 1rem;
+}
+
+.bag > .action > a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .search {
@@ -112,5 +117,61 @@ body {
   height: auto;
   object-fit: contain;
 }
+
+.navi > a:hover{
+  background-color: #FFA47F;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px; 
+  font-size: large;
+}
+
+.slider {
+  height: 357px;
+  width: 1515px;
+}
+
+.slider > * {
+height: 357px;
+width: 1515px;
+}
+
+.pan {
+  color: darkred;
+  text-align: center;
+  background-color: lightpink;
+}
+
+.fh {
+  height: 200px;
+  width: 1515px;
+  text-align: center;
+  background-color:chocolate;
+}
+
+.fh > *{
+  width: 1515px;
+}
+
+.nt {
+  background-color: lightgreen;
+}
+
+.nt > img {
+  width: 1513px;
+
+}
+
+.nxt {
+  padding: 50px;
+  display: flex;
+  gap: 200px;
+}
+
+.nxt > div > nav > a {
+  color: #362F4F;
+  text-decoration: none;
+}
+
 
 
